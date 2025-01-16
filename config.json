@@ -1,4 +1,4 @@
-###Configurção padrão
+Default Config
 
 {
     "workbench.colorTheme": "Dracula Theme",
@@ -21,7 +21,7 @@
     "workbench.activityBar.location": "top"
 }
 
-Configuração clean:
+Clean Config
 
 {
     "workbench.colorTheme": "GitHub Dark Dimmed",
