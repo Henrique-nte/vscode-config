@@ -1,12 +1,10 @@
-Default Config
-
 {
-    "workbench.colorTheme": "Dracula Theme",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
     "workbench.iconTheme": "vscode-icons",
     "editor.fontSize": 20,
     "editor.fontFamily": "JetBrains Mono",
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "explicit"
+        "source.fixAll.eslint": true,
     },
     "editor.formatOnSave": true,
     "editor.mouseWheelZoom": true,
@@ -16,26 +14,21 @@ Default Config
     "liveServer.settings.donotShowInfoMsg": true,
     "window.menuBarVisibility": "toggle",
     "workbench.layoutControl.enabled": false,
-    "workbench.statusBar.visible": true,
+    "workbench.statusBar.visible": false, // Oculta a barra inferior
     "window.commandCenter": false,
-    "workbench.activityBar.location": "top"
-}
-
-Clean Config
-
-{
-    "workbench.colorTheme": "GitHub Dark Dimmed",
-    "workbench.iconTheme": "symbols",
-    "editor.fontSize": 18,
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true,
-    "editor.mouseWheelZoom": true,
-    "window.zoomLevel": 1,
-    "symbols.hidesExplorerArrows": false,
-    "workbench.activityBar.location": "hidden",
-    "window.commandCenter": false,
-    "workbench.layoutControl.enabled": false,
-    "window.menuBarVisibility": "compact",
-    "editor.minimap.enabled": false
+    "workbench.activityBar.visible": false, // Oculta a barra lateral
+    "editor.minimap.enabled": false, // Remove o minimapa
+    "editor.lineNumbers": "off", // Oculta números das linhas
+    "editor.renderLineHighlight": "none", // Sem destaque da linha atual
+    "editor.renderWhitespace": "none", // Sem espaços visíveis
+    "editor.wordWrap": "on", // Quebra automática de linha
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.smoothScrolling": true,
+    "editor.scrollBeyondLastLine": false,
+    "explorer.compactFolders": false,
+    "terminal.integrated.fontSize": 13,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "telemetry.telemetryLevel": "off",
+    "symbols.hidesExplorerArrows": false
 }
