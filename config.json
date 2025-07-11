@@ -22,7 +22,7 @@
     "editor.renderLineHighlight": "none", // Sem destaque da linha atual
     "editor.renderWhitespace": "none", // Sem espaços visíveis
     "editor.wordWrap": "on", // Quebra automática de linha
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.smoothScrolling": true,
     "editor.scrollBeyondLastLine": false,
     "explorer.compactFolders": false,
@@ -30,5 +30,6 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
     "telemetry.telemetryLevel": "off",
-    "symbols.hidesExplorerArrows": false
+    "symbols.hidesExplorerArrows": false,
+    "editor.unicodeHighlight.includeStrings": false
 }
