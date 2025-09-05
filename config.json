@@ -4,9 +4,12 @@
     "editor.fontSize": 20,
     "editor.fontFamily": "JetBrains Mono",
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
+        "source.fixAll.eslint": true
     },
     "editor.formatOnSave": true,
     "editor.mouseWheelZoom": true,
     "window.zoomLevel": 0.8,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line",
+    "editor.cursorSmoothCaretAnimation": "on"
 }
