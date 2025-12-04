@@ -2,7 +2,7 @@
   // ================================
   // Aparência
   // ================================
-  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.colorTheme": "Catppuccin Frappé",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "window.zoomLevel": 0,
@@ -64,21 +64,10 @@
   // C e C++
   // ================================
   "C_Cpp.intelliSenseEngine": "default",
-  "C_Cpp.formatting": "clangFormat"
+  "C_Cpp.formatting": "clangFormat",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.stickyScroll.enabled": false,
+  "git.confirmSync": false
 }
-
-//EXTENSÕES
-//Aparência
-//Catppuccin for VSCode
-//Material Icon Theme
-//Indent Rainbow (opcional)
-//Error Lens (destaque de erros)
-//Programação geral
-//Prettier
-//ESLint
-//Code Runner
-//GitLens
-//Para C e C++
-//C/C++ (Microsoft)
-//C/C++ Compile Run
-//Clangd (opcional)
