@@ -1,22 +1,14 @@
 {
-  // ================================
-  // Aparência
-  // ================================
   "workbench.colorTheme": "Catppuccin Frappé",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "window.zoomLevel": 0,
   "editor.fontFamily": "JetBrains Mono, Fira Code, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 12,
-  "editor.lineHeight": 1.4,
+  "editor.fontSize": 17,
+  "editor.lineHeight": 1.1,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "smooth",
   "workbench.statusBar.visible": true,
-
-  // ================================
-  // Editor
-  // ================================
   "editor.tabSize": 4,
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
@@ -29,45 +21,33 @@
   "editor.renderWhitespace": "selection",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-  // ================================
-  // Terminal integrado
-  // ================================
   "terminal.integrated.fontFamily": "JetBrains Mono",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.smoothScrolling": true,
-
-  // ================================
-  // Aparência clean
-  // ================================
   "breadcrumbs.enabled": false,
   "workbench.activityBar.location": "bottom",
   "workbench.editor.untitled.hint": "hidden",
-
-  // ================================
-  // Sugestões mais inteligentes
-  // ================================
   "editor.suggestSelection": "first",
   "editor.quickSuggestions": {
     "other": true,
     "comments": false,
-    "strings": false
+    "strings": false,
   },
-
-  // ================================
-  // Extensões úteis (ativação)
-  // ================================
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
-
-  // ================================
-  // C e C++
-  // ================================
   "C_Cpp.intelliSenseEngine": "default",
   "C_Cpp.formatting": "clangFormat",
   "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
+    "editor.defaultFormatter": "ms-vscode.cpptools",
   },
   "editor.stickyScroll.enabled": false,
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.secondarySideBar.defaultVisibility": "visible",
+  "explorer.confirmDelete": false,
+  "terminal.integrated.initialHint": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+  },
 }
