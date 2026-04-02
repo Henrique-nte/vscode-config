@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "Catppuccin Frappé",
   "workbench.startupEditor": "none",
   "window.zoomLevel": 0,
   "editor.fontFamily": "JetBrains Mono, Fira Code, Consolas, 'Courier New', monospace",
@@ -50,4 +49,5 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
   },
+  "workbench.colorTheme": "One Dark Pro Flat",
 }
